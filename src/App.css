@@ -1,38 +1,238 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.ama-dashbord {
+  display: flex;
+}
+.ama-aside {
+  width: 14.5%;
+  height: 400vh;
+  padding: 10px 0;
+}
+.aside-category {
+  width: 220px;
+  padding: 0px 15px;
+  border-right: 2px solid silver;
+}
+
+.aside-category h1 {
+  font-size: 15px;
+  margin: 8px 0;
+}
+.aside-category h2 {
+  font-size: 15px;
+  position: relative;
+  left: 10px;
+  margin: 5px 0;
+}
+.aside-category a {
+  font-size: 14px;
+  position: relative;
+  left: 15px;
+  display: inline-block;
+}
+.aside-category a i {
+  color: #e47911;
+}
+
+.aside-category a:hover {
+  color: #e47911;
+  cursor: pointer;
+}
+
+.aside-brands {
+  margin: 15px;
+  border-right: 2px solid silver;
+  width: 205px;
+}
+
+.aside-brands p {
+  font-size: 14px;
+  display: inline-block;
+  font-weight: bold;
+  width: 200px;
+  margin: 10px 0;
+}
+
+.aside-brands-input {
+  display: flex;
+  margin: 5px 2px;
+  width: 150px;
+}
+
+.aside-brands-input input {
+  width: 17px;
+  height: 17px;
+}
+
+.aside-brands-input span {
+  position: relative;
+  left: 5px;
+  font-size: 14px;
+}
+
+.aside-brands-input span:hover {
+  color: #e47911;
+  cursor: pointer;
+}
+
+.checkbox-prime {
+  color: rgb(0, 213, 255);
+  font-weight: bold;
+}
+
+.aside-brands-input-brand {
+  display: inline-block;
+  width: 205px;
+}
+.aside-brands-input-brand input {
+  width: 17px;
+  height: 17px;
+}
+
+.aside-brands-input-brand input:hover {
+  outline: 3px solid royalblue;
+}
+
+.aside-brands-input-brand span {
+  position: relative;
+  left: 5px;
+  font-size: 14px;
+}
+
+.aside-brands-input-brand span:hover {
+  color: #e47911;
+  cursor: pointer;
+}
+
+.ama-card {
+  width: 90%;
+  height: 416vh;
+  padding: 15px 10px;
+}
+
+.card-img1 img {
+  width: 110%;
+}
+.card-img1 img:hover {
+  cursor: pointer;
+}
+.card-img2 img {
+  width: 110%;
+}
+.card-img2 img:hover {
+  cursor: pointer;
+}
+.card-img3 img {
+  width: 110%;
+}
+.card-img3 img:hover {
+  cursor: pointer;
+}
+.card-img4 img {
+  width: 110%;
+}
+.card-img4 img:hover {
+  cursor: pointer;
+}
+
+.card-product-row1 {
+  padding: 40px;
+  display: flex;
+}
+
+.card-product-row1 img {
+  width: 180px;
+  height: 180px;
+  margin: 0 2px;
+}
+
+.card-product-row1 img:hover {
+  cursor: pointer;
+}
+
+.card-product-row1 figcaption {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-product-row1 figcaption:hover {
+  color: #e47911;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-product-row2 {
+  width: 111%;
+  height: 300px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-product-row2 h1 {
+  text-align: center;
+  font-size: 23px;
 }
 
-.App-link {
-  color: #61dafb;
+.card-product-row2-png img {
+  height: 250px;
+  width: 200px;
+  margin: 0 4px;
+  position: relative;
+  bottom: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-product-row2-png img:hover {
+  cursor: pointer;
+  border: 1px solid rgb(140, 140, 140);
+}
+
+.card-product-row3 {
+  width: 111%;
+}
+
+.card-product-row3 img {
+  width: 306px;
+  height: 410px;
+  margin: 0 3px;
+}
+
+.card-product-row3 img:hover {
+  cursor: pointer;
+  border: 1px solid rgb(140, 140, 140);
+}
+
+.card-product-row4 {
+  background-color: rgb(222, 222, 222);
+  height: 355px;
+  width: 111%;
+  padding: 10px 20px;
+}
+.card-product-row4-store {
+  background-color: rgb(255, 255, 255);
+  height: 335px;
+  border-radius: 10px;
+}
+
+.card-product-row4-store h1 {
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+.card-product-row4-png {
+  position: relative;
+  top: 90px;
+  left: 15px;
+}
+
+.card-product-row4-png img {
+  height: 170px;
+  width: 170px;
+}
+.card-product-row4-png img:hover {
+  cursor: pointer;
+  border: 3px solid rgb(140, 140, 140);
+  border-radius: 20px;
 }

@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css"
+import AmaNav1 from './AmaNav1'
+import AmaNav2 from './AmaNav2'
+import AmaNav3 from './AmaNav3'
+import AmaAside from './AmaAside'
+import AmaCard from './AmaCard'
+import AmaFooter from './AmaFooter'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <AmaNav1/>
+        <AmaNav2/>
+        <AmaNav3/>
+        <div className='ama-dashbord'>
+            <div className='ama-aside'>
+                <AmaAside/>
+            </div>
+            <div className='ama-card'>
+                <AmaCard/>
+            </div>
+        </div>
+        <AmaFooter/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
