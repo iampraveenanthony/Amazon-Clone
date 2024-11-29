@@ -12,7 +12,7 @@ const AmaNav1 = () => {
             Deliver to
           </a>
           <a href="#" className="nav1-div1-deliver-down">
-            <i class="fa-solid fa-location-dot"></i>`India
+            <i class="fa-solid fa-location-dot"></i><pre>  India</pre>
           </a>
         </div>
       </div>
@@ -21,31 +21,30 @@ const AmaNav1 = () => {
         <select className="nav1-div2-left">
             <option value="frontend">All Categories</option>
             <option value="backend">Alex Skills</option>
-            <option value="ai">Amazon Devices</option>
-            <option value="blockchain">Amazon Fashion</option>
-            <option value="sharemarket">Amazon Fresh</option>
-            <option value="trading">Amazon Fresh Meat</option>
-            <option value="donate">Amazon Pharmacy</option>
+            <option value="ai">Devices</option>
+            <option value="blockchain">Fashion</option>
+            <option value="trading">Fresh Meat</option>
+            <option value="donate">Pharmacy</option>
             <option value="donate">Appliances</option>
             <option value="donate">Apps & Games</option>
-            <option value="donate">Audible Audiobooks</option>
+            <option value="donate">Audiobooks</option>
             <option value="donate">Baby</option>
             <option value="donate">Beauty</option>
             <option value="donate">Books</option>
-            <option value="donate">Car & Motorbike</option>
-            <option value="donate">Clothing & Accessories</option>
+            <option value="donate">Auto Mobile</option>
+            <option value="donate">Clothing</option>
             <option value="donate">Collectibles</option>
-            <option value="donate">Computers & Accessories</option>
+            <option value="donate">Computers</option>
             <option value="donate">Deals</option>
             <option value="donate">Electronics</option>
             <option value="donate">Furniture</option>
-            <option value="donate">Garden & Outdoors</option>
+            <option value="donate">Outdoors</option>
             <option value="donate">Gift cards</option>
-            <option value="donate">Grocery & Gourmet Foods</option>
-            <option value="donate">Health & Personal Care</option>
-            <option value="donate">Home & Kitchen</option>
+            <option value="donate">Grocery</option>
+            <option value="donate">Health Care</option>
+            <option value="donate">Home</option>
         </select>
-        <input type="text" placeholder="Search Amazon" />
+        <input type="search" placeholder="Search Amazon" />
         <a href="#" className="nav1-div2-right">
           <i class="fa-solid fa-magnifying-glass"></i>
         </a>

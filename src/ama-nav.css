@@ -96,12 +96,13 @@
 
 .nav1-div2-right{
     background-color: #F3A847;
-    padding: 6px 11.1px;
+    padding: 6px 11.5px;
     border-radius: 0px 5px 5px 0px;
     color: #383634;
     font-size: 20px;
     position: relative;
     top: 3px;
+    left: 70px;
 }
 
 .nav1-div2-right:hover{

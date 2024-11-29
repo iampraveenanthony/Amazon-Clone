@@ -6,14 +6,17 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
 .ama-dashbord {
   display: flex;
 }
+
 .ama-aside {
   width: 14.5%;
   height: 400vh;
   padding: 10px 0;
 }
+
 .aside-category {
   width: 220px;
   padding: 0px 15px;
@@ -24,18 +27,21 @@
   font-size: 15px;
   margin: 8px 0;
 }
+
 .aside-category h2 {
   font-size: 15px;
   position: relative;
   left: 10px;
   margin: 5px 0;
 }
+
 .aside-category a {
   font-size: 14px;
   position: relative;
   left: 15px;
   display: inline-block;
 }
+
 .aside-category a i {
   color: #e47911;
 }
@@ -112,7 +118,7 @@
 
 .ama-card {
   width: 90%;
-  height: 416vh;
+  height: 400vh;
   padding: 15px 10px;
 }
 
